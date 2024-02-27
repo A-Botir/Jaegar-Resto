@@ -1,0 +1,16 @@
+.main_content {
+  display: none;
+  padding: 24px 40px 0 10px;
+  .main_nav {
+    .main_nav__list {
+      .main_nav__item {
+        font-size: 14px;
+        transition: all 0.5s ease;
+        cursor: pointer;
+        &:hover {
+          color: rgb(234, 124, 105);
+        }
+      }
+    }
+  }
+}

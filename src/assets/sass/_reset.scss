@@ -1,0 +1,42 @@
+* {
+  font-family: "Barlow";
+  font-weight: normal;
+  font-size: 14px;
+  color: white;
+  line-height: 140%;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapp {
+  width: 100%;
+  background: rgb(37, 40, 54);
+}
+
+.main_container {
+  max-width: 1280px;
+  width: 1195px;
+  margin: 0 auto;
+  padding: 0;
+}
