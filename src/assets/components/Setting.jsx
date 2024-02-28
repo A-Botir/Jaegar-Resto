@@ -111,6 +111,15 @@ function Setting() {
               </li>
             </ul>
           </nav>
+          <div className="mx-6 w-full h-[473px]"></div>
+          <div className="flex gap-2 mx-6">
+            <button className=" rounded-lg text-center font-semibold w-[172px] h-[48px] p-[14px] border-[#EA7C69] text-[#EA7C69] border">
+              Discard Changes
+            </button>
+            <button className="rounded-lg text-center font-semibold w-[172px] h-[48px] p-[14px] bg-[#EA7C69]">
+              Save Changes
+            </button>
+          </div>
         </div>
       </div>
     </div>
