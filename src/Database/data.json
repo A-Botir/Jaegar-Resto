@@ -3,65 +3,131 @@
     {
       "id": 1,
       "title": "Spicy seasoned seafood noodles",
-      "price": "$ 2.29",
+      "price": 2.29,
       "isAvialable": "20 Bowls avallable",
       "imgUrl": "./photos/Image 1.svg"
     },
     {
       "id": 2,
       "title": "Salted Pasta with mushroom sauce",
-      "price": "$2.69",
+      "price": 2.69,
       "isAvialable": "11 Bowls avallable",
       "imgUrl": "./photos/Image 2.svg"
     },
     {
       "id": 3,
       "title": "Beef dumpling in hot and sour soup",
-      "price": "$ 2.99",
+      "price": 2.99,
       "isAvialable": "16 Bowls avallable",
       "imgUrl": "./photos/Image 3.svg"
     },
     {
       "id": 4,
       "title": "Healthy noodle with spinach leaf",
-      "price": "$ 3.29",
+      "price": 3.29,
       "isAvialable": "22 Bowls availlable",
       "imgUrl": "./photos/Image 4.svg"
     },
     {
       "id": 5,
       "title": "Hot spicy fried rice with omelet",
-      "price": "$ 3.49",
+      "price": 3.49,
       "isAvialable": "13 Bowls available",
       "imgUrl": "./photos/Image 5.svg"
     },
     {
       "id": 6,
       "title": "Spicy instant noodle omelette",
-      "price": "$ 3.59",
+      "price": 3.59,
       "isAvialable": "17 Bowls available",
       "imgUrl": "./photos/Image 6.svg"
     },
     {
       "id": 7,
       "title": "Sheep dumpling in hot and sour soup",
-      "price": "$ 3.79",
+      "price": 3.79,
       "isAvialable": "17 Bowls available",
       "imgUrl": "./photos/Image 7.svg"
     },
     {
       "id": 8,
       "title": "Salted Pasta with mushroom sauce",
-      "price": "$ 2.79",
+      "price": 2.79,
       "isAvialable": "16 Bowls available",
       "imgUrl": "./photos/Image 8.svg"
     },
     {
       "id": 9,
       "title": "Healthy mampe with spinach leaf",
-      "price": "$ 2.49",
+      "price": 2.49,
       "isAvialable": "13 Bowls available",
       "imgUrl": "./photos/Image 9.svg"
+    }
+  ],
+  "Customers": [
+    {
+      "id": 1,
+      "firstname": "Eren Yeager",
+      "avatar": "https://i.pinimg.com/564x/9e/4b/79/9e4b79df1915de606e4b20d153fdae4d.jpg",
+      "menu": "Beef dumpling in hot and sour soup",
+      "total": 125,
+      "status": "Completed"
+    },
+    {
+      "id": 2,
+      "firstname": "Erwin Smith",
+      "avatar": "https://i.pinimg.com/564x/33/35/98/333598d4be5efffbe4ee0220d3b1adfc.jpg",
+      "menu": "Salted Pasta with mushroom sauce",
+      "total": 145,
+      "status": "Preparing"
+    },
+    {
+      "id": 3,
+      "firstname": "Levi Ackermann",
+      "avatar": "https://i.pinimg.com/564x/b2/b8/b2/b2b8b2cb000f0d4c2659a605e5a1b104.jpg",
+      "menu": "Sheep dumpling in hot and sour soup",
+      "total": 105,
+      "status": "Pending"
+    },
+    {
+      "id": 4,
+      "firstname": "Mikasa Ackermann",
+      "avatar": "https://i.pinimg.com/564x/07/c6/eb/07c6eb82b6591aeeda3d385019691ccb.jpg",
+      "menu": "Hot spicy fried rice with omelet",
+      "total": 45,
+      "status": "Completed"
+    },
+    {
+      "id": 5,
+      "firstname": "Armin Arlelt",
+      "avatar": "https://i.pinimg.com/564x/0c/03/67/0c036749b99505db8078edc57c3a86fa.jpg",
+      "menu": "Healthy noodle with spinach leaf",
+      "total": 245,
+      "status": "Completed"
+    },
+    {
+      "id": 6,
+      "firstname": "Sasha Braus",
+      "avatar": "https://i.pinimg.com/564x/83/aa/12/83aa129e6e0abcaa3f7464cee34a39f8.jpg",
+      "menu": "Healthy mampe with spinach leaf",
+      "total": 435,
+      "status": "Completed"
+    },
+    {
+      "id": 7,
+      "firstname": "Reiner Braun",
+      "avatar": "https://i.pinimg.com/564x/f6/6b/e1/f66be134840a394bb7243c9d3ed4aa62.jpg",
+      "menu": "Salted Pasta with mushroom sauce",
+      "total": 115,
+      "status": "Preparing"
+    },
+    {
+      "id": 8,
+      "firstname": "Annie Leonhart",
+      "avatar": "https://i.pinimg.com/564x/ab/f4/84/abf4849ced34eba94e6a0978f10be841.jpg",
+      "menu": "Spicy seasoned seafood noodles",
+      "total": 315,
+      "status": "Pending"
     }
   ]
 }

@@ -21,4 +21,6 @@ function App() {
   );
 }
 
+// npx json-server src/Database/data.json
+
 export default App;

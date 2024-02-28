@@ -82,7 +82,7 @@ function MainContent() {
                 <h4 className="card_title font-medium text-center mb-2">
                   {food.title}
                 </h4>
-                <p className="card_price mb-1 text-center">{food.price}</p>
+                <p className="card_price mb-1 text-center">{`$ ${food.price}`}</p>
                 <p className="card_bowls text-center text-[#ABBBC2]">
                   {food.isAvialable}
                 </p>
