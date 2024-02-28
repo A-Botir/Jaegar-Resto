@@ -1,26 +1,20 @@
 import { useState } from "react";
 import Navbar from "./assets/components/Navbar";
-import MainContent from "./assets/components/MainContent";
-import Sidebar from "./assets/components/Sidebar";
-import Payment from "./assets/components/Payment";
-import Dashboard from "./assets/components/Dashboard";
+import Clients from "./pages/Clients";
+import Home from "./pages/Home";
+import Settings from "./pages/Settings";
 
 function App() {
-  const [isPaymentVisible, setPaymentVisible] = useState(false);
-
-  const handlePaymentVisibility = () => {
-    setPaymentVisible(!isPaymentVisible);
-  };
+  const [step, setStep] = useState(1);
 
   return (
     <div className="wrapp">
       <div className="main_container">
         <div className="home_content flex justify-center w-full items-start">
-          <Navbar />
-          <MainContent />
-          <Sidebar onPaymentClick={handlePaymentVisibility} />
-          <Payment isVisible={isPaymentVisible} />
-          <Dashboard />
+          <Navbar step={step} setStep={setStep} />
+          {step === 1 && <Home />}
+          {step === 2 && <Clients />}
+          {step === 3 && <Settings />}
         </div>
       </div>
     </div>
