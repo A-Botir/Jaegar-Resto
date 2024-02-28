@@ -1,7 +1,9 @@
+import Setting from "../assets/components/Setting";
+
 function Settings() {
   return (
     <>
-      <h1>Hello Settings</h1>
+      <Setting />
     </>
   );
 }

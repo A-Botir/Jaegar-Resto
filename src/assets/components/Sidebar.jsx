@@ -1,4 +1,7 @@
 import Bucket from "../images/icons/Bucket.svg";
+import Lagman from "../images/photos/Lagman.svg";
+import Manti from "../images/photos/Manti.svg";
+import Salad from "../images/photos/Salad.svg";
 import React, { useState } from "react";
 
 function Sidebar({ onPaymentClick }) {
@@ -38,7 +41,7 @@ function Sidebar({ onPaymentClick }) {
         <li className="mt-7 ">
           <div className="order_item_top flex justify-between mb-2">
             <div className="flex gap-1 items-center">
-              <img src="" alt="ordered meal" className="w-11 h-10" />
+              <img src={Lagman} alt="ordered meal" className="w-11 h-10" />
               <div>
                 <h4 className="font-medium mb-1">Spicy seasoned sea...</h4>
                 <p className="font-medium text-xs text-slate-500">$ 2.29</p>
@@ -46,9 +49,69 @@ function Sidebar({ onPaymentClick }) {
             </div>
             <div className="flex items-center gap-5">
               <button className="sidebar_order__btn text-base font-medium rounded-lg p-3 w-12 h-12">
-                1
+                2
               </button>
               <p className="text-base font-medium">$ 4.58</p>
+            </div>
+          </div>
+          <div className="order_item_bott flex gap-4">
+            <input
+              type="text"
+              className="sidebar_order__input flex-grow  rounded-lg box-border text outline-none max-h-12"
+              placeholder="Order Note..."
+            />
+            <button
+              className="order_item_del rounded-lg box-border w-12 h-12"
+              onClick={() => mydelete.parentElement.parentElement.remove()}
+            >
+              <img src={Bucket} alt="bucket icon" />
+            </button>
+          </div>
+        </li>
+        <li className="mt-7 ">
+          <div className="order_item_top flex justify-between mb-2">
+            <div className="flex gap-1 items-center">
+              <img src={Salad} alt="ordered meal" className="w-11 h-10" />
+              <div>
+                <h4 className="font-medium mb-1">Fresh Salad</h4>
+                <p className="font-medium text-xs text-slate-500">$ 1.49</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-5">
+              <button className="sidebar_order__btn text-base font-medium rounded-lg p-3 w-12 h-12">
+                1
+              </button>
+              <p className="text-base font-medium">$ 1.49</p>
+            </div>
+          </div>
+          <div className="order_item_bott flex gap-4">
+            <input
+              type="text"
+              className="sidebar_order__input flex-grow  rounded-lg box-border text outline-none max-h-12"
+              placeholder="Order Note..."
+            />
+            <button
+              className="order_item_del rounded-lg box-border w-12 h-12"
+              onClick={() => mydelete.parentElement.parentElement.remove()}
+            >
+              <img src={Bucket} alt="bucket icon" />
+            </button>
+          </div>
+        </li>
+        <li className="mt-7 ">
+          <div className="order_item_top flex justify-between mb-2">
+            <div className="flex gap-1 items-center">
+              <img src={Manti} alt="ordered meal" className="w-11 h-10" />
+              <div>
+                <h4 className="font-medium mb-1">Hot manti</h4>
+                <p className="font-medium text-xs text-slate-500">$ 3.59</p>
+              </div>
+            </div>
+            <div className="flex items-center gap-5">
+              <button className="sidebar_order__btn text-base font-medium rounded-lg p-3 w-12 h-12">
+                1
+              </button>
+              <p className="text-base font-medium">$ 3.59</p>
             </div>
           </div>
           <div className="order_item_bott flex gap-4">
